@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.566);
+    color: white;
+    height: 50px;
+    width: 1500px;
+    font-size: 21px;
+    
+    
+
+}
+nav ul {
+    display: flex;
+    color: white;
+    margin-left:10px;
+    justify-content: center;
+}
+
+ul a {
+    color: white;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
